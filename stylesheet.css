@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+}
+li{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: transform 1.2s ease;
+}
+li:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transform: scale(1.3);
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+}
+body {
+    display: grid;
+    grid-template-rows: 15% 80% 40% 50% 50% 50% 15% 70% 15%;
+}
+
+header, footer {
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    height: -10%;
+    width: -10%;
+}
+.loja{
+    display: flex;
+    justify-content: center;
+}
+.content_venda{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border: solid ;
+    width: 95vw;
+    height: 50vh;
+    border-radius:20px;
+}
+
+.inicio img{
+    height: 70%;
+}
+.noticias{
+    font-size: 1.8em;
+    position: relative;
+    top: 50%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+    height: 80% ;
+    width: 40%; 
+    text-align:end;
+    padding: 10px;
+}
+.footer2{
+    height: 80% ;
+    width: 40%;
+    border-left: solid white;
+    padding: 10px;
+}
+.itemvenda{
+    border: solid rgb(76, 77, 76);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transition: transform 1.3s ease;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itemvenda:hover{
+    border: solid rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    transform: scale(1.03);
+    justify-content: center;
+    
+}
+.itemvenda img{
+    height:100px;
+    width: 100px;
+    border: solid rgb(76, 77, 76);
+    border-radius: 10px;
+    
+}
+.comprar{
+    border-radius: 10px;
+    border: solid ;
+    height: 25px;
+    width: 120px;
+    transition: transform 1.3s ease;
+}
+.comprar:hover{
+    border-radius: 10px;
+    border: solid ;
+    height: 25px;
+    width: 120px;
+    transform: scale(1.1);
+}
